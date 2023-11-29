@@ -6,6 +6,6 @@
 
 public class Kata {
     public static String evenOrOdd(int number) {
-        return ""; // Place code here;
+        return (number % 2 == 0)? "Even" : "Odd"; // Place code here;
     }
 }
