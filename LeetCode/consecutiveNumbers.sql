@@ -1,6 +1,8 @@
 ---------------------------------------------------------------
 -- Author: Leonardo Marques
 -- leetcode: Medium
+-- Reference: https://dev.mysql.com/doc/refman/8.0/en/with.html
+-- Reference: https://www.geeksforgeeks.org/mysql-lead-and-lag-function/
 ---------------------------------------------------------------
 
 /* RunTime = 682ms
@@ -11,10 +13,6 @@
 
 
 -- RunTime = 826 ms
-/*
-    https://dev.mysql.com/doc/refman/8.0/en/with.html
-    https://www.geeksforgeeks.org/mysql-lead-and-lag-function/
-*/
 WITH l1 AS (
     SELECT num,
     LAG(num, 1) OVER(ORDER BY id) t1,
