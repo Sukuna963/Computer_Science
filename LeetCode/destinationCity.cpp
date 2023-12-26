@@ -27,12 +27,15 @@ public:
     string destCity(vector<vector<string>>& paths) {
         unordered_map<string, int> path;
         
-        for(vector<string>& p : paths) {
+        for(vector<string>& p : paths) 
+        {
             path[p[0]] ++, path[p[1]];
         }
     
-        for (const pair<string, int>& comp : path) {
-            if(comp.second == 0) {
+        for (const pair<string, int>& comp : path)
+         {
+            if(comp.second == 0) 
+            {
                 return comp.first;
             }
         }

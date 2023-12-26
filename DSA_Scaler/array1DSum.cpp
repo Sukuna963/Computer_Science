@@ -1,0 +1,25 @@
+/***************************************************************
+* Data Structures in C++ - 1D Array
+* Scaler
+***************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+//Sum of elements
+int main()
+{
+    int a[5] = {4,1,7,5,10};
+    
+    int sum = 0;
+    
+    for(int i = 0; i < 5; i++) 
+    {
+        sum += a[i];
+    }
+    
+    cout << "The sum of the array elements = " << sum << endl;
+
+    return 0;
+}

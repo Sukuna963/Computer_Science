@@ -1,3 +1,9 @@
+/***************************************************************
+* Author: Leonardo Marques
+* Beginning C++ Programming - From Beginner to Beyond
+* Udemy
+***************************************************************/
+
 #include <iostream>
 #include <string>
 
@@ -17,14 +23,16 @@ int main ()
 
     //encrypted message
     string message_encrypt {};
-    for (char c : message) {
-
+    for (char c : message) 
+    {
         size_t position = ALPHABET.find(c);
 
-        if(position != string::npos) {
+        if(position != string::npos) 
+        {
             message_encrypt += KEY.at(position);
         }
-        else {
+        else 
+        {
             message_encrypt += c;
         }
     }
@@ -34,14 +42,16 @@ int main ()
 
     //decrypted message
     string message_decrypt {};
-    for (char c : message_encrypt) {
-
+    for (char c : message_encrypt) 
+    {
         size_t position = KEY.find(c);
 
-        if(position != string::npos) {
+        if(position != string::npos) 
+        {
             message_decrypt += ALPHABET.at(position);
         }
-        else {
+        else 
+        {
             message_decrypt += c;
         }
     }

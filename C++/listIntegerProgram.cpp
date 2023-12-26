@@ -1,3 +1,9 @@
+/***************************************************************
+* Author: Leonardo Marques
+* Beginning C++ Programming - From Beginner to Beyond
+* Udemy
+***************************************************************/
+
 #include <iostream>
 #include <vector>
 
@@ -21,13 +27,17 @@ int main()
         cout << "Enter your choice: ";
         cin >> choice;
         
-        switch((char)tolower(choice)) {
+        switch((char)tolower(choice)) 
+        {
             
             case 'p':
-                if(numbers.empty()) {
+                if(numbers.empty()) 
+                {
                     cout << "[] - the list is empty" << endl;
                     
-                } else {
+                } 
+                else 
+                {
                     cout << "[ ";
                     for(auto n : numbers) {
                         cout << n << " ";
@@ -47,12 +57,16 @@ int main()
                 break;
                 
             case 'm':
-                if(numbers.empty()) {
+                if(numbers.empty()) 
+                {
                     cout << "Unable to calculate the mean - no data" << endl;
                     
-                } else {
+                } 
+                else 
+                {
                     int sum;
-                    for(auto n : numbers) {
+                    for(auto n : numbers) 
+                    {
                         sum += n;
                     }
                     
@@ -61,15 +75,22 @@ int main()
                 break;
                 
             case 's':
-                if (numbers.empty()) {
+                if (numbers.empty()) 
+                {
                     cout << "Unable to determine the smallest number - list is empty" << endl;
                     
-                } else {
+                } 
+                else 
+                {
                     int smallest{};
-                    for(int i = 0; i < numbers.size()-1; i++) {
-                        if(numbers.at(i) < numbers.at(i+1)) {
+                    for(int i = 0; i < numbers.size()-1; i++) 
+                    {
+                        if(numbers.at(i) < numbers.at(i+1))
+                         {
                             smallest = numbers.at(i);
-                        } else {
+                        } 
+                        else 
+                        {
                             smallest = numbers.at(i+1);
                         }
                     }
@@ -79,15 +100,22 @@ int main()
                 break;
                 
             case 'l':
-                if (numbers.empty()) {
+                if (numbers.empty()) 
+                {
                     cout << "Unable to determine the largest number - list is empty" << endl;
                     
-                } else {
+                } 
+                else 
+                {
                     int largest{};
-                    for(int i = 0; i < numbers.size()-1; i++) {
-                        if(numbers.at(i) > numbers.at(i+1)) {
+                    for(int i = 0; i < numbers.size()-1; i++) 
+                    {
+                        if(numbers.at(i) > numbers.at(i+1)) 
+                        {
                             largest = numbers.at(i);
-                        } else {
+                        } 
+                        else 
+                        {
                             largest = numbers.at(i+1);
                         }
                     }

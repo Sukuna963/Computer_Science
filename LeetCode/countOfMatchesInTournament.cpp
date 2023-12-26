@@ -29,7 +29,8 @@ public:
 // RunTime = 0ms
 class Solution {
 public:
-    int numberOfMatches(int n) {
+    int numberOfMatches(int n) 
+    {
         if(n == 1)
         {
             return 0;

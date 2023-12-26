@@ -60,17 +60,23 @@ public:
         vector<int> onesRow(row_size, 0);
         vector<int> onesCol(col_size, 0);
 
-        for(int i = 0; i < row_size; i++) {
-            for(int j = 0; j < col_size; j++) {
-                if(grid[i][j] == 1) {
+        for(int i = 0; i < row_size; i++) 
+        {
+            for(int j = 0; j < col_size; j++) 
+            {
+                if(grid[i][j] == 1) 
+                {
                     onesRow[i]++;
                 }
             }
         }
 
-        for(int i = 0; i < col_size; i++) {
-            for(int j = 0; j < row_size; j++) {
-                if(grid[j][i] == 1) {
+        for(int i = 0; i < col_size; i++) 
+        {
+            for(int j = 0; j < row_size; j++) 
+            {
+                if(grid[j][i] == 1) 
+                {
                     onesCol[i]++;
                 }
             }
@@ -78,8 +84,10 @@ public:
 
         vector<vector<int>> diff(row_size, vector<int>(col_size));
 
-        for(int i = 0; i < row_size; i++) {
-            for(int j = 0; j < col_size; j++) {
+        for(int i = 0; i < row_size; i++) 
+        {
+            for(int j = 0; j < col_size; j++) 
+            {
                 diff[i][j] = onesRow[i] + onesCol[j] - (row_size - onesRow[i]) - (col_size - onesCol[j]);
             }
         }
