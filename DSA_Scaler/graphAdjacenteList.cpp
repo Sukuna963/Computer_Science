@@ -3,11 +3,6 @@
 * Scaler
 ***************************************************************/
 
-/*
-* Program to count number of nodes
-* in loop in a linkedlist if loop
-* is present
-*/
 #include <iostream>
 #include <list>
 
