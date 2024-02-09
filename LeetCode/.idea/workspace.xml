@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e0f74f6-2373-440f-a4c6-7be40f988f94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/twoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced_DSA/lecture1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced_DSA/lecture2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced_DSA/lecture3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/aNeedleInTheHaystack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/binaryMultiplication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/evenOrOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/grassHopper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/leapYears.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/mutualRecursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/noonerizeMe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeWars/stringArrayDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/japaneseCitiesAttributes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/japaneseCitiesNames.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/revisingTheSelectQuery(I).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/selectAll.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/selectByID.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/weatherObservationStation(1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/weatherObservationStation(3).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/weatherObservationStation(4).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combineTwoTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consecutiveNumbers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countOfMatchesInTournament.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customersWhoNeverOrder.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinationCity.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/differenceBetweenOnesAndZerosInRowAndColumn.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicateEmails.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeesEarningMoreThanTheirManagers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nthHighestSalary.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rankScores.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondHighestSalary.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twoSum.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2c6FaVNZUt5D4QBss9YXNtu7wGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e0f74f6-2373-440f-a4c6-7be40f988f94" name="Changes" comment="" />
+      <created>1707424186026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707424186026</updated>
+    </task>
+    <servers />
+  </component>
+</project>
