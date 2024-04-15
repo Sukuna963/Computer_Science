@@ -1,7 +1,9 @@
 package com.example;
 
-import lombok.*
+import lombok.*;
 
+@Getter
+@Setter
 public abstract class Conta implements IConta {
     
     private static final int AGENCIA_PADRAO = 1;
@@ -24,7 +26,7 @@ public abstract class Conta implements IConta {
         if(verificaSaldo(valor)) {
             this.saldo -= valor;
         }else {
-            System.out.println("\nSaldo insuficiente para saque\n");
+            System.out.println("\n" + cliente.getNome() +" : Saldo insuficiente para saque\n");
         }
 
     }
@@ -40,34 +42,17 @@ public abstract class Conta implements IConta {
             this.sacar(valor);
             ContaDestino.depositar(valor);
         } else {
-            System.out.println("\nSaldo insuficiente para transferecia\n");
+            System.out.println("\n" + cliente.getNome() +" : Saldo insuficiente para transferecia\n");
         }
        
     }
 
     private Boolean verificaSaldo(double valor) {
-       if(saldo > valor) {
-        return true;
-       } else {
-        return false;
-       }
+       return (saldo > valor) ? true : false;
     }
-
-    public int getAgencia() {
-        return agencia;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public double saldo() {
-        return saldo;
-    }
-
+    
     protected void imprimirInfos() {
         System.out.println(String.format("Olá %s \nagência: %s \nconta: %d \nsaldo: %.2f\n"
         ,this.cliente.getNome(),this.agencia, this.numero, this.saldo));
     }
-
 }

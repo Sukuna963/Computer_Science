@@ -11,7 +11,8 @@ public class Banco {
     }
 
     public void imprimiBancoInfo() {
-        System.out.println(String.format("%s \nclientes:", this.NOME));
+
+        System.out.println(String.format("==== %s ====\nclientes:", this.NOME));
         getContas();
     }
 
