@@ -105,7 +105,7 @@ class ContaCorrente(Conta):
     def __str__(self):
         return f"""\
             Agência:\t{self.agencia}
-            C/C:\t\t{self.numero}
+            C/C:\t{self.numero}
             Titular:\t{self.cliente.nome}
         """
 
@@ -180,7 +180,7 @@ def recuperar_conta_cliente(cliente):
 
     return cliente.contas[0]
 
-def sacar(clientes):
+def operacao(clientes, operacao):
     cpf = input("Informe o CPF: ")
     cliente = verifica_cliente(cpf, clientes)
 
@@ -189,24 +189,7 @@ def sacar(clientes):
         return
 
     valor = float(input("Informe o valor do saque: "))
-    transacao = Saque(valor)
-
-    conta = recuperar_conta_cliente(cliente)
-    if not conta:
-        return
-
-    cliente.realizar_transacao(conta, transacao)
-
-def depositar(clientes):
-    cpf = input("Informe o CPF do cliente: ")
-    cliente = verifica_cliente(cpf, clientes)
-
-    if not cliente:
-        print("\nCliente não encontrado!")
-        return
-
-    valor = float(input("Informe o valor do deposito: "))
-    transacao = Deposito(valor)
+    transacao = operacao(valor)
 
     conta = recuperar_conta_cliente(cliente)
     if not conta:
@@ -235,7 +218,7 @@ def exibir_extrato(clientes):
         extrato = "Nao forma realizadas movimentacoes na conta"
     else:
         for transacao in transacoes:
-             extrato += f"\n{transacao['tipo']}:\tR$ {transacao['valor']:.2f}"
+             extrato += f"\n{transacao['tipo']}:\t R$ {transacao['valor']:.2f}"
 
     print(extrato)
     print("===============================")
@@ -279,15 +262,10 @@ def criar_conta(numero_conta, clientes, contas):
     print("\nConta criada com sucesso!")
 
 def lista_clientes(contas):
+    print("======== Clientes Banco =======")
     for conta in contas:
-        linha = f"""
-        Agência: {conta.agencia}
-        C/C: {conta.numero}
-        Titular: {conta.cliente.nome}
-        """
+        print(str(conta))
         print("===============================")
-        print(linha)
-
 
 # ATM
 
@@ -317,10 +295,10 @@ def main():
             criar_conta(numero_conta, clientes, contas)
 
         elif opcao == "d":
-            depositar(clientes)
+            operacao(clientes, Deposito)
 
         elif opcao == "s":
-            sacar(clientes)
+           operacao(clientes, Saque)
 
         elif opcao == "e":
             exibir_extrato(clientes)
