@@ -5,5 +5,6 @@
 
 - Lecture 1: Introduction to CS and Programming Using Python
 - Lecture 2: Strings, Input/Output, and Branching
+- Lecture 3: Iteration
 ---
 ...continuando
