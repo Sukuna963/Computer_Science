@@ -8,5 +8,6 @@
 - Lecture 3: Iteration
 - Lecture 4: Loops over Strings, Guess-and-Check, and Binary
 - Lecture 5: Floats and Approximation Methods
+- Lecture 6: Bisection Search (FIXED)
 ---
 ...continuando
