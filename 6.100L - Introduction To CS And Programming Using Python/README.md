@@ -10,5 +10,6 @@
 - Lecture 5: Floats and Approximation Methods
 - Lecture 6: Bisection Search (FIXED)
 - Lecture 7: Decomposition, Abstraction, and Functions
+- Lecture 8: Functions as Objects
 ---
 ...continuando
