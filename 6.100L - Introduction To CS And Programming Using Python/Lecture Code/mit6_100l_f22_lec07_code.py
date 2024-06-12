@@ -103,10 +103,10 @@ def keep_consonants(word):
         of word in the order they appear
     """
     # your code here
-    vogal = "aeiou"
+    vowel = "aeiou"
     consonants_of_word = ""
     for char in word:
-        if char not in vogal:
+        if char not in vowel:
             consonants_of_word += char
       
     return consonants_of_word

@@ -11,5 +11,6 @@
 - Lecture 6: Bisection Search (FIXED)
 - Lecture 7: Decomposition, Abstraction, and Functions
 - Lecture 8: Functions as Objects
+- Lecture 9: Lambda Functions, Tuples, and Lists
 ---
 ...continuando
