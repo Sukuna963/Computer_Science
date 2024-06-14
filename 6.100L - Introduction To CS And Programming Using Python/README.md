@@ -12,5 +12,7 @@
 - Lecture 7: Decomposition, Abstraction, and Functions
 - Lecture 8: Functions as Objects
 - Lecture 9: Lambda Functions, Tuples, and Lists
+- Lecture 10: Lists and Mutability (FIXED)
+- Lecture 11: Aliasing and Cloning
 ---
 ...continuando
