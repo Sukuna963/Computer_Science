@@ -14,5 +14,8 @@
 - Lecture 9: Lambda Functions, Tuples, and Lists
 - Lecture 10: Lists and Mutability (FIXED)
 - Lecture 11: Aliasing and Cloning
----
+- Lecture 12: List Comprehension, Functions as Objects, Testing, and Debugging (FIXED)
+- Lecture 13: Exceptions and Assertions
+
+----
 ...continuando
