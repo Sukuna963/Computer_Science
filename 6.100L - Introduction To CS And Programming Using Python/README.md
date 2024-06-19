@@ -16,6 +16,8 @@
 - Lecture 11: Aliasing and Cloning
 - Lecture 12: List Comprehension, Functions as Objects, Testing, and Debugging (FIXED)
 - Lecture 13: Exceptions and Assertions
+- Lecture 14: Dictionaries
+- Lecture 15: Recursion
 
 ----
 ...continuando
