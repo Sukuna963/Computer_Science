@@ -18,6 +18,7 @@
 - Lecture 13: Exceptions and Assertions
 - Lecture 14: Dictionaries
 - Lecture 15: Recursion
+- Lecture 16: Recursion on Non-numerics
 
 ----
 ...continuando
