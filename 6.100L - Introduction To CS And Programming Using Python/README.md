@@ -19,6 +19,7 @@
 - Lecture 14: Dictionaries
 - Lecture 15: Recursion
 - Lecture 16: Recursion on Non-numerics
-
+- Lecture 17: Python Classes
+- Lecture 18: More Python Class Methods
 ----
 ...continuando
