@@ -21,5 +21,11 @@
 - Lecture 16: Recursion on Non-numerics
 - Lecture 17: Python Classes
 - Lecture 18: More Python Class Methods
-----
-...continuando
+- Lecture 19: Inheritance
+- Lecture 20: Fitness Tracker Object-Oriented Programming Example
+- Lecture 21: Timing Programs and Counting Operations
+- Lecture 22: Big Oh and Theta
+- Lecture 23: Complexity Classes Examples
+- Lecture 24: Sorting Algorithms
+- Lecture 25: Plotting
+- Lecture 26: List Access, Hashing, Simulations, and Wrap-Up
