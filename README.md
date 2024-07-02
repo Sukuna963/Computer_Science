@@ -6,6 +6,7 @@
 - 🟨 [CMU 15-445/645 Fall 2023 Database Systems](https://15445.courses.cs.cmu.edu/fall2023/)
 - 🟧 [Introduction To Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
 - 🟧 [Fundamentals Of Systems Engineering](https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/)
+- 🟧 [Software Architecture Course - 2022-23 edition](https://arquisoft.github.io/course2223.html)
 
 ----
 ✅ Completed 🟨 In Progress 🟧 Not Started
