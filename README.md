@@ -1,5 +1,5 @@
 
-👨‍💻 ***Learning***
+👨‍💻 ***Computer Science***
 ----
 
 - ✅ [MIT 6.100L Introduction to CS and Programming using Python, Fall 2022](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/)
